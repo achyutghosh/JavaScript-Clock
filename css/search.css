@@ -1,0 +1,87 @@
+body {
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+}
+
+.navbar {
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clock {
+    position: relative;
+    font-size: 80px;
+    font-family: digital;
+    padding: 100px;
+    text-shadow: #0077b5;
+    color: #D8E2DC;
+}
+
+#day {
+    position: absolute;
+    font-size: 50px;
+    font-family: digital;
+    text-shadow: #0077b5;
+    color: #D8E2DC;
+    margin-top: 100px;;
+}
+
+#msg {
+    position: absolute;
+    font-size: 40px;
+    font-family: digital;
+    text-shadow: #0077b5;
+    color: #D8E2DC;
+    margin-top: 170px;;
+}
+
+/* Clock Styling*/
+ @font-face {
+    font-family: digital;
+    src: url(digital.ttf);
+}
+
+#github {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#game {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.fa-github {
+    color: #D8E2DC;  
+}
+
+.fa-gamepad {
+    color: #D8E2DC;  
+}
+
+a:hover {
+    color: #4285F4;
+    text-shadow: 0 0 15px #4285F4;
+    transition: all 0.5s ease;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: 80px;
+    left: 25%;
+    color: #D8E2DC;
+}
